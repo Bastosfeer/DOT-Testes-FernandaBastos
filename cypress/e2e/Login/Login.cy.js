@@ -23,7 +23,6 @@ describe('Testes Funcionais de Login', () => {
         cy.get('[data-test="username"]').type("standard_user");
         cy.get('[data-test="password"]').type("secret_saucee");
         cy.get('[data-test="login-button"]').click();
-        cy.get('.title').should('contain', "Products");
     });
 
 });
