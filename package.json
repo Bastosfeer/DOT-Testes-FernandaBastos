@@ -1,10 +1,11 @@
 {
   "name": "dot-testes-fernandabastos",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "cypress run",
-    "build": "echo 'Nenhum build necessário'"
+    "build": "echo 'Nenhum build necessário'",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Fernanda",
@@ -16,4 +17,3 @@
     "mocha": "^11.1.0"
   }
 }
-
