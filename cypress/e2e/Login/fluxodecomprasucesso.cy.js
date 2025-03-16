@@ -1,9 +1,12 @@
 describe('Teste E2E - Realizando a compra de produtos com sucesso', () => {
-
-    it('Fluxo da compra de produtos', () => {
-        cy.visit("https://www.saucedemo.com");
+        beforeEach(() => {
+                cy.visit("/");
+                
+            });
+        
+        it('Fluxo da compra de produtos', () => {
         cy.get('[data-test="username"]').type("standard_user");
-        cy.get('[data-test="password"]').type("secret_sauce");
+        cy.get('[data-test="password"]').type("secret_sauce", {log: false});
         cy.get('[data-test="login-button"]').click();
   
 
