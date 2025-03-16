@@ -8,7 +8,7 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch: # Habilita execução manual
+  workflow_dispatch:  # Permite rodar manualmente no GitHub Actions
 
 jobs:
   cypress-run:
