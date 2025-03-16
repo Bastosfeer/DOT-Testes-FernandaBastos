@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "build": "echo 'Nenhum build necessário'"
   },
   "keywords": [],
   "author": "Fernanda",
@@ -15,3 +16,4 @@
     "mocha": "^11.1.0"
   }
 }
+
